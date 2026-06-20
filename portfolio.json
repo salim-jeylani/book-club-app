@@ -1,0 +1,26 @@
+{
+  "layout": "magazine",
+  "emoji": "📦",
+  "title": "Project Title",
+  "tagline": "A short description of what this project does and why it exists.",
+  "tags": [ "Technology", "Framework","Database","Category" ],
+  "demo": "https://www.w3schools.com/html/mov_bbb.mp4",
+  "screenshots": [
+    { "src": "./docs/screenshot-1.jpg","label": "Screenshot One" },
+    { "src": "./docs/screenshot-2.jpg","label": "Screenshot Two" },
+    { "src": "./docs/screenshot-3.jpg","label": "Screenshot Three" }
+  ],
+  "features": [
+    { "title": "Feature One", "desc": "Description of the first feature." },
+    { "title": "Feature Two","desc": "Description of the second feature." },
+    { "title": "Feature Three","desc": "Description of the third feature." },
+    { "title": "Feature Four","desc": "Description of the fourth feature." }
+  ],
+  "context": "Provide background information about the project, the problem it solves, or the goals behind its development.",
+  "tech": [
+    { "name": "Technology One","role": "Purpose or responsibility" },
+    { "name": "Technology Two","role": "Purpose or responsibility" },
+    { "name": "Technology Three","role": "Purpose or responsibility" },
+    { "name": "Technology Four","role": "Purpose or responsibility" }
+  ]
+}
