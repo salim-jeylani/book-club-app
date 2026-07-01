@@ -1,26 +1,121 @@
 {
   "layout": "magazine",
-  "emoji": "📦",
-  "title": "Project Title",
-  "tagline": "A short description of what this project does and why it exists.",
-  "tags": [ "Technology", "Framework","Database","Category" ],
+  "emoji": "📚",
+  "title": "Book Club App",
+  "tagline": "A full-stack book tracking platform built from scratch using Node.js, Express, EJS, and SQLite without relying on frontend frameworks.",
+  "tags": [
+    "Node.js",
+    "Express.js",
+    "EJS",
+    "SQLite",
+    "Full Stack"
+  ],
   "demo": "https://www.w3schools.com/html/mov_bbb.mp4",
   "screenshots": [
-    { "src": "./docs/screenshot-1.jpg","label": "Screenshot One" },
-    { "src": "./docs/screenshot-2.jpg","label": "Screenshot Two" },
-    { "src": "./docs/screenshot-3.jpg","label": "Screenshot Three" }
+    {
+      "src": "./docs/home-page.jpg",
+      "label": "Home Page"
+    },
+    {
+      "src": "./docs/register.jpg",
+      "label": "User Registration"
+    },
+    {
+      "src": "./docs/login.jpg",
+      "label": "User Login"
+    },
+    {
+      "src": "./docs/book-list.jpg",
+      "label": "Book Library"
+    },
+    {
+      "src": "./docs/book-details.jpg",
+      "label": "Book Details"
+    },
+    {
+      "src": "./docs/add-book.jpg",
+      "label": "Add a Book"
+    },
+    {
+      "src": "./docs/edit-book.jpg",
+      "label": "Edit Book"
+    },
+    {
+      "src": "./docs/my-books.jpg",
+      "label": "Reading Dashboard"
+    },
+    {
+      "src": "./docs/reading-progress.jpg",
+      "label": "Reading Progress"
+    },
+    {
+      "src": "./docs/reviews.jpg",
+      "label": "Book Reviews"
+    },
+    {
+      "src": "./docs/search.jpg",
+      "label": "Search & Genre Filtering"
+    },
+    {
+      "src": "./docs/validation.jpg",
+      "label": "Server-side Validation"
+    },
+    {
+      "src": "./docs/mobile.jpg",
+      "label": "Responsive Layout"
+    }
   ],
   "features": [
-    { "title": "Feature One", "desc": "Description of the first feature." },
-    { "title": "Feature Two","desc": "Description of the second feature." },
-    { "title": "Feature Three","desc": "Description of the third feature." },
-    { "title": "Feature Four","desc": "Description of the fourth feature." }
+    {
+      "title": "User Authentication",
+      "desc": "Secure user registration, login, logout, password hashing, and session-based authentication with protected routes."
+    },
+    {
+      "title": "Book Management",
+      "desc": "Create, browse, edit, and delete books while ensuring users can only modify their own submissions."
+    },
+    {
+      "title": "Reading Tracker",
+      "desc": "Track reading status, monitor page progress, and organize books into Want to Read, Reading, and Finished collections."
+    },
+    {
+      "title": "Ratings & Reviews",
+      "desc": "Write, edit, and delete book reviews with star ratings while displaying community averages for every book."
+    },
+    {
+      "title": "Search & Discovery",
+      "desc": "Quickly locate books by title, author, or genre using integrated search and filtering capabilities."
+    },
+    {
+      "title": "Robust Backend Validation",
+      "desc": "Performs comprehensive server-side validation, graceful error handling, custom error pages, and user-friendly feedback."
+    }
   ],
-  "context": "Provide background information about the project, the problem it solves, or the goals behind its development.",
+  "context": "Book Club App is a personal learning project built to explore full-stack web development without relying on frontend frameworks. The goal was to understand how modern web applications work under the hood by implementing routing, authentication, server-side rendering, relational databases, sessions, validation, and CRUD operations using only Express, EJS, and SQLite. Throughout the project, emphasis was placed on writing modular code, designing a maintainable architecture, and creating an intuitive user experience while keeping the technology stack intentionally lightweight.",
   "tech": [
-    { "name": "Technology One","role": "Purpose or responsibility" },
-    { "name": "Technology Two","role": "Purpose or responsibility" },
-    { "name": "Technology Three","role": "Purpose or responsibility" },
-    { "name": "Technology Four","role": "Purpose or responsibility" }
+    {
+      "name": "Node.js",
+      "role": "Runs the backend server and application logic."
+    },
+    {
+      "name": "Express.js",
+      "role": "Handles routing, middleware, authentication, and HTTP request processing."
+    },
+    {
+      "name": "EJS",
+      "role": "Provides server-side rendering for dynamic HTML pages."
+    },
+    {
+      "name": "SQLite",
+      "role": "Stores users, books, reading progress, and reviews in a lightweight relational database."
+    },
+    {
+      "name": "Express Session",
+      "role": "Maintains authenticated user sessions across requests."
+    },
+    {
+      "name": "CSS",
+      "role": "Creates a responsive and consistent user interface without CSS frameworks."
+    }
   ]
 }
